@@ -7,7 +7,7 @@ import java.util.List;
 public class Numbers {
     public static void main(String[] args) {
 
-        List<Integer> integers = new ArrayList<>(List.of(4, 23, 431, 247, 342, 29, -45, 5, 88));
+        List<Integer> integers = new ArrayList<>(List.of(4, 23, 431, 247, 42, 29, -45, 5, 88));
 
         integers.stream()
                 .filter(n -> n > 10)
